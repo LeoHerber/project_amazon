@@ -37,7 +37,7 @@ Feature: ‘amazon.fr’ Test Automation using Playwright
 
  
 
-### Scenario: Search for a product and complete purchase 
+### Scenario: Search for a product and complete purchase [Léo]
 
   Given I navigate to the Amazon homepage 
 
@@ -57,7 +57,7 @@ Feature: ‘amazon.fr’ Test Automation using Playwright
 
  
 
-### Scenario: Search for a product within a category 
+### Scenario: Search for a product within a category [Léo]
 
   Given I navigate to the Amazon homepage 
 
@@ -69,7 +69,7 @@ Feature: ‘amazon.fr’ Test Automation using Playwright
 
  
 
-### Scenario: Add a product to the cart 
+### Scenario: Add a product to the cart [Léo]
 
   Given I am viewing a product details page 
 
@@ -81,7 +81,7 @@ Feature: ‘amazon.fr’ Test Automation using Playwright
 
  
 
-### Scenario: Modify product quantity in the cart 
+### Scenario: Modify product quantity in the cart [Léo]
 
   Given I have a product in my cart 
 
