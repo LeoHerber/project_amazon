@@ -1,4 +1,4 @@
-### project_amazon
+# project_amazon
 
 Feature: ‘amazon.fr’ Test Automation using Playwright 
 
