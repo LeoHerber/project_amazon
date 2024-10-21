@@ -2,6 +2,7 @@
 
 Feature: ‘amazon.fr’ Test Automation using Playwright 
 
+
 ### Scenario: Logout from the account 
 
   Given I am logged into my account 
@@ -160,4 +161,34 @@ Feature: ‘amazon.fr’ Test Automation using Playwright
 
   Then I should see the corresponding delivery options for that address 
 
+## Julien
+### Scénario : Changer la langue du site en allemand 
+	Given I navigate to the Amazon homepage
+	When I hover the language menu
+	And I click on "modifier le pays/la région"
+	And I select "Allemagne" in the country choice
+	And I click on the button "Accéder au site Web"
+	Then I should be redirected to the german website
+
+### Scénario : Rentrer dans la catégorie romans de poésie
+	Given I navigate to the Amazon homepage
+	When I click on the "Livres" menu	
+	And I hover "Roman et littérature"
+	And I click on "Poésie"
+	Then I should be redirected to the poetry books category
+
+### Scénario : Supprimer un article de l'historique de navigation
+	Given I am logged in and at the amazon homepage and I have searched for an article
+	When I click on the "Account" menu
+	And I click on the button "Historique de navigation"
+	And I click on the button "Supprimer"
+	Then the article should disapear from my history
+
+### Scénario : Voir le baromètre des ventes en animalerie
+	Given I navigate to the Amazon homepage
+	And I click on the menu "Toutes"
+	And I click on "Baromètre des ventes"
+	And I click on "Animalerie"
+	Then I should see the ranking of sold items for pets
+	
  
