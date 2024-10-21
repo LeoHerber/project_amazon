@@ -2,34 +2,6 @@
 
 Feature: ‘amazon.fr’ Test Automation using Playwright 
 
-### Scenario: Create a new account 
-
-  Given I navigate to the Amazon homepage 
-
-  When I go to the registration page 
-
-  And I fill in the account creation form with a valid email and password 
-
-  And I submit the form 
-
-  Then I should see a confirmation message indicating the account was created 
-
- 
-
-### Scenario: Login to the account 
-
-  Given I navigate to the Amazon homepage 
-
-  When I go to the login page 
-
-  And I enter valid login credentials 
-
-  And I submit the login form 
-
-  Then I should be successfully logged in and redirected to the account homepage 
-
- 
-
 ### Scenario: Logout from the account 
 
   Given I am logged into my account 
