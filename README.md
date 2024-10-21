@@ -2,7 +2,7 @@
 
 Feature: ‘amazon.fr’ Test Automation using Playwright 
 
-Scenario: Create a new account 
+### Scenario: Create a new account 
 
   Given I navigate to the Amazon homepage 
 
@@ -16,7 +16,7 @@ Scenario: Create a new account
 
  
 
-Scenario: Login to the account 
+### Scenario: Login to the account 
 
   Given I navigate to the Amazon homepage 
 
@@ -30,7 +30,7 @@ Scenario: Login to the account
 
  
 
-Scenario: Logout from the account 
+### Scenario: Logout from the account 
 
   Given I am logged into my account 
 
@@ -42,7 +42,7 @@ Scenario: Logout from the account
 
  
 
-Scenario: Attempt to create a new account with an existing email 
+### Scenario: Attempt to create a new account with an existing email 
 
   Given I navigate to the Amazon homepage 
 
@@ -56,7 +56,7 @@ Scenario: Attempt to create a new account with an existing email
 
  
 
-Scenario: Verify homepage content 
+### Scenario: Verify homepage content 
 
   Given I navigate to the Amazon homepage 
 
@@ -64,7 +64,7 @@ Scenario: Verify homepage content
 
  
 
-Scenario: Search for a product and complete purchase 
+### Scenario: Search for a product and complete purchase 
 
   Given I navigate to the Amazon homepage 
 
@@ -84,7 +84,7 @@ Scenario: Search for a product and complete purchase
 
  
 
-Scenario: Search for a product within a category 
+### Scenario: Search for a product within a category 
 
   Given I navigate to the Amazon homepage 
 
@@ -96,7 +96,7 @@ Scenario: Search for a product within a category
 
  
 
-Scenario: Add a product to the cart 
+### Scenario: Add a product to the cart 
 
   Given I am viewing a product details page 
 
@@ -108,7 +108,7 @@ Scenario: Add a product to the cart
 
  
 
-Scenario: Modify product quantity in the cart 
+### Scenario: Modify product quantity in the cart 
 
   Given I have a product in my cart 
 
@@ -120,7 +120,7 @@ Scenario: Modify product quantity in the cart
 
  
 
-Scenario: Checkout with new account creation 
+### Scenario: Checkout with new account creation 
 
   Given I have a product in my cart 
 
@@ -134,7 +134,7 @@ Scenario: Checkout with new account creation
 
  
 
-Scenario: Checkout with existing account login 
+### Scenario: Checkout with existing account login 
 
   Given I have a product in my cart 
 
@@ -146,7 +146,7 @@ Scenario: Checkout with existing account login
 
  
 
-Scenario: Remove a product from the cart 
+### Scenario: Remove a product from the cart 
 
   Given I have a product in my cart 
 
@@ -158,7 +158,7 @@ Scenario: Remove a product from the cart
 
  
 
-Scenario: Apply filters in a category 
+### Scenario: Apply filters in a category 
 
   Given I navigate to the "Books" category page 
 
@@ -168,7 +168,7 @@ Scenario: Apply filters in a category
 
  
 
-Scenario: Purchase "Frequently Bought Together" items 
+### Scenario: Purchase "Frequently Bought Together" items 
 
   Given I am viewing a product details page 
 
@@ -180,7 +180,7 @@ Scenario: Purchase "Frequently Bought Together" items
 
  
 
-Scenario: Verify delivery addresses during checkout 
+### Scenario: Verify delivery addresses during checkout 
 
   Given I am on the checkout page 
 
